@@ -17,5 +17,4 @@ async def measure_runtime() -> float:
         async_comprehension(),
         async_comprehension(),
     )
-    finish_time = time.time()
-    return finish_time - start_time
+    return time.time() - start_time
