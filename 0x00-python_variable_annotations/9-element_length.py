@@ -3,5 +3,5 @@
 from typing import List, Tuple, Set
 
 
-def element_length(lst: List[Tuple]) -> List[Tuple[str, int]]:
+def element_length(lst: str) -> List[Tuple[str, int]]:
     return [(i, len(i)) for i in lst]
